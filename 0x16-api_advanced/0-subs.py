@@ -19,4 +19,4 @@ def number_of_subscribers(subreddit):
     if "data" in req:
         return (req.get("data").get("subscribers"))
     else:
-        return (0)0
+        return (0)
